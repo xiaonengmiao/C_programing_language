@@ -123,6 +123,33 @@ C_programing_language/fast:
 	$(MAKE) -f CMakeFiles/C_programing_language.dir/build.make CMakeFiles/C_programing_language.dir/build
 .PHONY : C_programing_language/fast
 
+Chapter1/aaa.o: Chapter1/aaa.cpp.o
+
+.PHONY : Chapter1/aaa.o
+
+# target to build an object file
+Chapter1/aaa.cpp.o:
+	$(MAKE) -f CMakeFiles/C_programing_language.dir/build.make CMakeFiles/C_programing_language.dir/Chapter1/aaa.cpp.o
+.PHONY : Chapter1/aaa.cpp.o
+
+Chapter1/aaa.i: Chapter1/aaa.cpp.i
+
+.PHONY : Chapter1/aaa.i
+
+# target to preprocess a source file
+Chapter1/aaa.cpp.i:
+	$(MAKE) -f CMakeFiles/C_programing_language.dir/build.make CMakeFiles/C_programing_language.dir/Chapter1/aaa.cpp.i
+.PHONY : Chapter1/aaa.cpp.i
+
+Chapter1/aaa.s: Chapter1/aaa.cpp.s
+
+.PHONY : Chapter1/aaa.s
+
+# target to generate assembly for a file
+Chapter1/aaa.cpp.s:
+	$(MAKE) -f CMakeFiles/C_programing_language.dir/build.make CMakeFiles/C_programing_language.dir/Chapter1/aaa.cpp.s
+.PHONY : Chapter1/aaa.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_programing_language"
+	@echo "... Chapter1/aaa.o"
+	@echo "... Chapter1/aaa.i"
+	@echo "... Chapter1/aaa.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

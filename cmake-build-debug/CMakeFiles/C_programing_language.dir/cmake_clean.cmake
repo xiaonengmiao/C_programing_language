@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/C_programing_language.dir/main.cpp.o"
+  "CMakeFiles/C_programing_language.dir/Chapter1/aaa.cpp.o"
   "C_programing_language.pdb"
   "C_programing_language"
 )
