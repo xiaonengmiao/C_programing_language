@@ -82,10 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/lihaohan/ClionProjects/C_programing_language/Chapter1/aaa.cpp">
-			<Option target="C_programing_language"/>
-		</Unit>
-		<Unit filename="/Users/lihaohan/ClionProjects/C_programing_language/Chapter1/aaa.h">
+		<Unit filename="/Users/lihaohan/ClionProjects/C_programing_language/Chapter1/ex1-1.cpp">
 			<Option target="C_programing_language"/>
 		</Unit>
 		<Unit filename="/Users/lihaohan/ClionProjects/C_programing_language/main.cpp">
